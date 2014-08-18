@@ -1,4 +1,4 @@
-require 'bootstrap-sass-rails'
+require 'bootstrap-sass'
 
 module Refinery
   autoload :BootstrapGenerator, 'generators/refinery/bootstrap/bootstrap_generator'
