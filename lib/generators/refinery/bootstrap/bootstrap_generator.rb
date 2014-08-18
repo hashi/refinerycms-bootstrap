@@ -4,7 +4,7 @@ module Refinery
     source_root File.expand_path('../templates', __FILE__)
 
     def overwrite_application_stylesheet
-      template 'app/assets/stylesheets/application.css', File.join(destination_root, 'app', 'assets', 'stylesheets', 'application.css')
+      template 'app/assets/stylesheets/application.css.scss', File.join(destination_root, 'app', 'assets', 'stylesheets', 'application.css.scss')
     end
   end
 end
